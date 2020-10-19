@@ -1,0 +1,23 @@
+<form name="Login" id="Login" class="LoginCabecera" method="post" action="login.php">
+  <input type="hidden" name="pagina" value="<?php echo $paginaActual; ?>">
+  <input type="hidden" name="product" value="<?php echo $producto; ?>">
+  <div class="formularioCampo">
+  <label for="User"> Usuario: </label>
+  <input class="LoginCabe" name="usuario" id="usuario" type="text" placeholder="Sopadefideos" required></input>
+  </div>
+
+  <div class="formularioCampo">
+    <label for="Contraseña"> Contraseña: </label>
+    <input class="LoginCabe" name="password" id="password" type="password" placeholder="contraseña" required></input>
+  </div>
+
+  <div class="formularioCampo">
+    <input class="LoginBoton" type="submit" name="loginSubmit" id="loginSubmit" value="Iniciar Sesión"></input>
+  </div>
+
+  <div class="RegistrarseCabecera">
+    <u class="Cabecera" >Si no tienes cuenta </u>
+    <a class="RegistroCabecera" href="Registro.php">Registrate</a>
+  </div>
+
+</form>

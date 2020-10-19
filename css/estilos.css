@@ -1,0 +1,1114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+body {
+  padding: 20px;
+  background-color: rgb(242, 192, 224);
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+  position: initial;
+  padding: 5px;
+  border-color: rgb(169, 31, 181);
+  border-width: 10px;
+  border-style: ridge;
+}
+
+img.LogoNinja {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  margin: -50px auto;
+}
+
+form.LoginCabecera {
+  margin-top: -150px;
+  float: right;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+div.formularioCampo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 250px;
+  width: 100%;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+
+input.LoginCabe {
+  display: inline-block;
+  float: right;
+  outline: none;
+  border-radius: 3px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+}
+
+input.LoginCabe:active {
+  display: inline-block;
+  float: right;
+  border: 1px solid #
+}
+
+u.Cabecera {
+  color: white;
+  font-style: normal;
+  font-family: Oswald, sans-serif;
+  text-decoration: none;
+}
+
+a.RegistroCabecera {
+  color: rgb(252, 0, 255);
+  font-family: Oswald, sans-serif;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 5px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-color: rgb(169, 31, 181);
+  border-width: 10px;
+  border-style: ridge;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: auto auto 5px;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  max-width: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+nav ul li a.Inicio {
+  flex-grow: 1;
+  height: 60px;
+  display: flex;
+  background: url(../imagenes/Inicio1.png) 0% 0% / 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  cursor: pointer;
+}
+nav ul li a.Inicio:hover {
+  flex-grow: 1;
+  height: 60px;
+  display: flex;
+  background: url(../imagenes/Inicio2.png) 0% 0% / 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+
+nav ul li a.Hombre {
+  flex-grow: 1;
+  height: 60px;
+  display: flex;
+  background: url(../imagenes/Hombre1.png) 0% 0% / 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+nav ul li a.Hombre:hover {
+  flex-grow: 1;
+  height: 60px;
+  display: flex;
+  background: url(../imagenes/Hombre2.png) 0% 0% / 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+nav ul li a.Mujer {
+  flex-grow: 1;
+  height: 60px;
+  display: flex;
+  background: url(../imagenes/Mujer1.png) 0% 0% / 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+nav ul li a.Mujer:hover {
+  flex-grow: 1;
+  height: 60px;
+  display: flex;
+  background: url(../imagenes/Mujer2.png) 0% 0% / 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+
+nav ul li a.Usuario {
+  flex-grow: 1;
+  height: 60px;
+  display: flex;
+  background: url(../imagenes/Usuario1.png) 0% 0% / 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+nav ul li a.Usuario:hover {
+  flex-grow: 1;
+  height: 60px;
+  display: flex;
+  background: url(../imagenes/Usuario2.png) 0% 0% / 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+article {
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+  position: initial;
+  padding: 5px;
+  border-color: rgb(169, 31, 181);
+  border-width: 10px;
+  border-style: ridge;
+}
+
+form.RegistroMedidas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+div.formularioCampo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 250px;
+  width: 100%;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+
+*.labelRegistrar {
+  font-family: Oswald, sans-serif;
+  color: white;
+}
+
+*.RegistroAlinear {
+  display: inline-block;
+  float: right;
+  padding-left: 5px;
+  outline: none;
+  border-radius: 3px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+}
+
+input:focus {
+  display: inline-block;
+  float: right;
+  outline: none;
+  border-radius: 3px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: #fff;
+  border-image: initial;
+}
+
+.LoginBoton:hover {
+  display: block;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(252, 0, 255);
+  width: 230px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin: 10px auto;
+  outline: none;
+}
+
+.LoginBoton {
+  display: block;
+  cursor: pointer;
+  color: rgb(252, 0, 255);
+  background-color: black;
+  width: 230px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin: 10px auto;
+  outline: none;
+}
+
+.RegistroBoton:hover {
+  display: block;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(252, 0, 255);
+  width: 230px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin: 10px auto;
+  outline: none;
+}
+
+.RegistroBoton {
+  display: block;
+  cursor: pointer;
+  color: rgb(252, 0, 255);
+  background-color: black;
+  width: 230px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin: 10px auto;
+  outline: none;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+  position: initial;
+  padding: 7px;
+  border-color: rgb(169, 31, 181);
+  border-width: 10px;
+  border-style: ridge;
+}
+
+small.infoFooter {
+  font-family: Oswald, sans-serif;
+  color: white;
+}
+
+div.RegistrarseCabecera{
+  margin-left: 30px;
+}
+
+.LogoutBoton:hover {
+  display: block;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(252, 0, 255);
+  width: 230px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin: 10px auto;
+  outline: none;
+  text-align: center;
+  font-size: 12px
+}
+
+.LogoutBoton {
+  display: block;
+  cursor: pointer;
+  color: rgb(252, 0, 255);
+  background-color: black;
+  width: 230px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin: 10px auto;
+  outline: none;
+  text-align: center;
+  font-size: 12px;
+}
+
+div.loggoutBoton{
+  float: right;
+  margin-top: -148px;
+  margin-right: 10px
+}
+
+*.usuarioRegistrado{
+  font-family: Oswald, sans-serif;
+  color: white;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+
+*.logoAlienFooter{
+  width: 2%;
+  float: right;
+  margin-top: -2px;
+}
+
+*.Comunidades{
+  width: 59%;
+  border-radius: 3px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+}
+
+*.Provincias{
+  width: 53%;
+  border-radius: 3px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+}
+
+*.Administrador{
+  font-family: Oswald, sans-serif;
+  color: white;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+
+*.Administrador:hover{
+  font-family: Oswald, sans-serif;
+  color: rgb(252, 0, 255);
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+}
+
+*.AdministradorPosicionamiento{
+  float: right;
+  margin-top: -83px;
+  margin-right: 56px;
+
+}
+
+*.slider{
+  font-family: Oswald, sans-serif;
+  color: white;
+  font-style: oblique;
+  display: black;
+  justify-content: center;
+}
+
+*.titulo{
+  font-family: Oswald, sans-serif;
+  color: white;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+
+*.BloqueModificarDatos{
+  display: block;
+  width: 400px;
+  height: 100%;
+  border-color: rgb(169, 31, 181);
+  border-width: 3px;
+  border-style: ridge;
+  margin: 15px;
+}
+
+*.etiquetaMod{
+  font-family: Oswald, sans-serif;
+  color: white;
+  float: left;
+  width: 100px;
+}
+
+label{
+  font-family: Oswald, sans-serif;
+  color: white;
+}
+
+*.labelRepetirContraseÃƒÂ±a{
+  width: 100px
+}
+
+*.BloqueModificarUsuario1{
+  display: block;
+  width: 400px;
+  height: 100%;
+  border-color: rgb(169, 31, 181);
+  border-width: 3px;
+  border-style: ridge;
+  margin-left: 20px;
+  margin-bottom: 15px
+}
+*.BloqueModificarUsuario2{
+  display: block;
+  width: 400px;
+  height: 100%;
+  border-color: rgb(169, 31, 181);
+  border-width: 3px;
+  border-style: ridge;
+  margin-left: 20px;
+  margin-bottom: -4px;
+}
+
+*.modificacionesUsuario{
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+  position: initial;
+  padding: 10px;
+  border-color: rgb(169, 31, 181);
+  border-width: 10px;
+  border-style: ridge;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+*.modificacionesContra-User{
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+*.ContenedorProductos{
+  position: initial;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+*.Productos {
+  display: block;
+  border-color: rgb(169, 31, 181);
+  border-width: 6px;
+  border-style: ridge;
+  margin: 10px;
+  width: 270px;
+  height: auto;
+  padding: 4px;
+  min-height: 400px;
+  max-height: 455px;
+}
+
+*.imagenesTienda{
+  width: 100%;
+
+}
+
+*.InfoProducto{
+  font-family: Oswald, sans-serif;
+  color: white;
+  font-style: normal;
+  display: block;
+  justify-content: center;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+*.InfoProductoRosa{
+  font-family: Oswald, sans-serif;
+  color: rgb(252, 0, 255);
+  font-style: normal;
+}
+*.paginacion{
+  font-family: Oswald, sans-serif;
+  color: rgb(252, 0, 255);
+  font-style: normal;
+}
+
+*.paginacionPosicion{
+  position: initial;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+*.detallesProducto{
+  display: block;
+  border-color: rgb(169, 31, 181);
+  border-width: 6px;
+  border-style: ridge;
+  margin: 10px;
+  width: 98%;
+  height: 100%;
+  padding: 4px;
+  position: initial;
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+*.imagenesDetalle{
+  width: 30%;
+}
+
+*.detailProducto{
+  font-family: Oswald, sans-serif;
+  color: white;
+  font-style: normal;
+  display: block;
+  justify-content: center;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  width: 62%;
+  float: right;
+  margin-top: 5px;
+  font-size: 21px;
+  line-height: 35px;
+  margin-right: 25px;
+}
+
+*.detailsProducto{
+  float: right;
+}
+
+.carritoBoton:hover {
+  display: block;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(252, 0, 255);
+  width: 230px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 11px;
+  outline: none;
+  text-align: center;
+  font-size: 12px
+}
+
+.carritoBoton {
+  display: block;
+  cursor: pointer;
+  color: rgb(252, 0, 255);
+  background-color: black;
+  width: 230px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  outline: none;
+  text-align: center;
+  font-size: 12px;
+}
+
+*.labelStock {
+  font-family: Oswald, sans-serif;
+  color: white;
+  margin-left: 10px;
+}
+
+*.inputStock {
+  font-family: Oswald, sans-serif;
+  color: purple;
+  padding-left: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  float: right;
+  width: 150px;
+  outline: none;
+  border-radius: 3px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+}
+
+*.formularioCarrito{
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+*.iconoCarrito{
+  flex-grow: 1;
+  height: 60px;
+  width: 53px;
+  display: flex;
+  background: url(../imagenes/carrito1.png) 11% 21% / 85%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 33px;
+}
+
+*.iconoCarrito:hover{
+  flex-grow: 1;
+  height: 60px;
+  width: 53px;
+  display: flex;
+  background: url(../imagenes/carrito2.png) 11% 21% / 85%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 33px;
+}
+
+*.labelQuitarCarrito{
+  font-family: Oswald, sans-serif;
+  color: white;
+  display: block;
+  width: 175px;
+}
+
+*.formQuitarCarrito{
+  margin-top: 0em;
+  display: flex;
+  flex-direction: unset;
+  text-align: center;
+}
+
+*.carritoBotonQuitar{
+  display: block;
+  cursor: pointer;
+  color: rgb(252, 0, 255);
+  background-color: black;
+  width: 170px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 7px;
+  margin-bottom: 11px;
+  outline: none;
+  text-align: center;
+  font-size: 12px;
+  height: 18px;
+}
+
+*.carritoBotonQuitar:hover {
+  display: block;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(252, 0, 255);
+  width: 170px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 11px;
+  outline: none;
+  text-align: center;
+  font-size: 12px
+  height: 18px;
+}
+*.carritoBotonQuitar{
+  display: block;
+  cursor: pointer;
+  color: rgb(252, 0, 255);
+  background-color: black;
+  width: 170px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 7px;
+  margin-bottom: 11px;
+  outline: none;
+  text-align: center;
+  font-size: 12px;
+  height: 18px;
+}
+
+*.carritoBotonQuitar:hover {
+  display: block;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(252, 0, 255);
+  width: 170px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 11px;
+  outline: none;
+  text-align: center;
+  font-size: 12px
+  height: 18px;
+}
+
+*.botonPagar{
+  display: block;
+  cursor: pointer;
+  color: rgb(252, 0, 255);
+  background-color: black;
+  width: 200px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin-bottom: 11px;
+  outline: none;
+  text-align: center;
+  font-size: 12px;
+  height: 34px;
+  padding-top: 7px;
+}
+
+*.botonPagar:hover {
+  display: block;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(252, 0, 255);
+  width: 200px;
+  font-family: Oswald, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+  border-radius: 8px;
+  margin-bottom: 11px;
+  outline: none;
+  text-align: center;
+  font-size: 12px;
+  height: 34px;
+  padding-top: 7px;
+}
+
+*.posicionBotonPago{
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+*.posicionPago{
+  position: initial;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+*.posicionformaBotonPago{
+  border-color: rgb(169, 31, 181);
+  border-width: 5px;
+  border-style: ridge;
+  justify-content: center;
+  width: 47%;
+  height: 100%;
+  margin: 10px
+}
+
+*.tituloCuenta{
+  font-family: Oswald, sans-serif;
+  color: white;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+
+*.tituloCuentaPosicion{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+*.listaPedidos{
+  display: block;
+  width: 70%;
+  height: 100%;
+  border-color: rgb(169, 31, 181);
+  border-width: 3px;
+  margin: 20px;
+  border-style: ridge;
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+*.pedidos{
+  display: block;
+  width: 400px;
+  height: 100%;
+  border-color: rgb(169, 31, 181);
+  border-width: 3px;
+  border-style: ridge;
+  margin: 10px
+}
+
+*.administradorUsuario1-1{
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-color: rgb(169, 31, 181);
+  border-width: 3px;
+  border-style: ridge;
+  padding: 15px;
+  margin: 15px;
+}
+
+*.administradorUsuario1-2{
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+*.administradorUsuario2{
+  position: initial;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+*.administradorUsuario2-3{
+  position: initial;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+*.administradorUsuario2-2{
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-color: rgb(169, 31, 181);
+  border-width: 3px;
+  border-style: ridge;
+}
+
+*.administradorUsuario2-2-1{
+  position: initial;
+  display: flex;
+  width: 406.8px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-color: rgb(169, 31, 181);
+  border-width: 3px;
+  border-style: ridge;
+}
+
+*.titulosAdministrador{
+  font-family: Oswald, sans-serif;
+color: white;
+font-style: normal;
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+*.titulosAdministrador:hover{
+    font-family: Oswald, sans-serif;
+    color: rgb(169, 31, 181);
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+*.titulosProduct{
+  font-family: Oswald, sans-serif;
+color: rgb(252, 0, 255);
+font-style: normal;
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+*.titulosProduct:hover{
+    font-family: Oswald, sans-serif;
+    color: rgb(120, 31, 181);
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+*.iconoProductoAlta{
+  flex-grow: 1;
+    height: 40px;
+    display: flex;
+    background: url(../imagenes/daralta1.png) 11% 21% / 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+*.iconoProductoAlta:hover{
+  flex-grow: 1;
+    height: 40px;
+    display: flex;
+  background: url(../imagenes/daralta2.png) 11% 21% / 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+*.iconoProductoBaja{
+  flex-grow: 1;
+    height: 40px;
+    display: flex;
+  background: url(../imagenes/baja1.png) 11% 21% / 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+*.iconoProductoBaja:hover{
+  flex-grow: 1;
+    height: 40px;
+    display: flex;
+  background: url(../imagenes/delete.png) 11% 21% / 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+*.iconoProductoModificar{
+  flex-grow: 1;
+    height: 40px;
+    display: flex;
+  background: url(../imagenes/edit1.png) 11% 21% / 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+*.iconoProductoModificar:hover{
+  flex-grow: 1;
+    height: 40px;
+    display: flex;
+  background: url(../imagenes/edit2.png) 11% 21% / 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+*.bloqueIconosAdmin{
+  position: initial;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+*.ProductoAlinear {
+  display: inline-block;
+  float: right;
+  padding-left: 5px;
+  outline: none;
+  border-radius: 3px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: rgb(252, 0, 255);
+  border-image: initial;
+}
+
+*.BloqueModificarDatosPedido{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-color: rgb(169, 31, 181);
+  border-width: 3px;
+  border-style: ridge;
+  margin: 15px;
+}
